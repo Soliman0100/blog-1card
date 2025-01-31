@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Outfit", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 0px 0px black;
+}
+.container .card>img{
+width: 100%;
+border-radius: 10px;
+}
+.card a{
+    padding: 8px 10px;
+    background-color: hsl(47, 88%, 63%);
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+    font-weight: bold;
+    display: block;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.card .p-2{
+    color: hsl(0, 0%, 42%);
+}
+.avatar{
+    display: flex;
+}
+.avatar img{
+    margin-right: 30px;
+}
